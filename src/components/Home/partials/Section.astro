@@ -1,0 +1,10 @@
+---
+type Props = {
+  id: string;
+};
+const { id } = Astro.props;
+---
+
+<section id={id} data-section class="py-4 pb-15 max-w-5xl m-auto">
+  <slot />
+</section>
