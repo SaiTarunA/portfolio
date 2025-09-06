@@ -8,7 +8,7 @@ export default {
         linkedIn: "https://www.linkedin.com/in/sai-tarun-avadhootha-231324193/",
         github: "https://github.com/SaiTarunA",
         mail: "mailto:saitarunavadhootha@gmail.com",
-        resume: "/Resume.pdf",
+        resume: `${import.meta.env.BASE_URL}/Resume.pdf`,
       },
       sidebar: {
         nav: [
@@ -31,7 +31,7 @@ export default {
         ],
         cta: {
           title: "Resume",
-          url: "/Resume.pdf",
+          url: `${import.meta.env.BASE_URL}/Resume.pdf`,
         },
       },
       sections: {
