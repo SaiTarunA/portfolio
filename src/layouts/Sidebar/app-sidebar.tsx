@@ -96,7 +96,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader className="mb-2">
         {isOpen && (
-          <a href="/">
+          <a href={`${import.meta.env.BASE_URL}`}>
             <p className="px-4 pt-4 text-xl md:text-2xl font-black text-accent-foreground">
               {config.pages.index.logo}
             </p>
